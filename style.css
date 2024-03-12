@@ -1,0 +1,143 @@
+:root{
+    --font-bule: #3cf;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    line-height: 1.6em;
+    background: url('./anh/a.jpg') no-repeat;
+
+      /* Full height */
+  height: 100%;
+
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.flex-sb{
+    display: flex;
+    align-content: space-between;
+}
+.gap-1{
+    gap: 1rem;
+
+}
+.gap-2{
+    gap: 2rem;
+
+}
+.gap-4{
+    gap: 4rem;
+
+}
+.container{
+    max-width: 1300px;
+    padding: 0 15px;
+}
+.logo i {
+    font-size: 5.2rem;
+    color: var (--font-bule);
+}
+.list li a{
+    color: #66ffff;
+    font-weight: 500;
+    margin-right: 10px;
+    font-size: 18px;
+    padding: 2px 0;
+    letter-spacing: 0.5px;
+    transition: 0,3s color;
+}
+.list li a.activer{
+    font-weight: 600;
+    color: #0099ff;
+    border-bottom: 2px solid #0099ff;
+    border-radius: 2px;
+}
+.login a{
+    font-size: 23px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 8px 48px;
+    border: 2px solid var(--font-bule);
+    border-radius: 999px;
+    box-shadow: 0px 0px 10px 5px #66ffff;
+    transition: 0.3s all;
+}
+.socials{
+    flex-direction: column;
+}
+.socials i{
+    padding: 8px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid var(--font-bule);
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 5px #66ffff;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.socials i:hover{
+    background-color: #66ffff;
+}
+.tittle-game h1{
+    line-height: 1.2em;
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin: 0px 0 30px;
+}
+.tittle-game h1 span{
+    color: #66ffff;
+}
+.tittle h3{
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+.tittle .text{
+    margin: 3px 0 20px;
+    width: 52%;
+}
+.tittle .flex a{
+    font-size: 14px;
+    font-weight: 600;
+}
+.tittle .flex span{
+    margin: 5px;
+}
+.tittle div a{
+    color: var(--font-bule);
+}
+.button{
+    margin-top: 40px;
+}
+.btn{
+    padding: 12px 24px;
+    background: #66ffff;
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    margin-right: 15px;
+    box-shadow: 0px 0px 40px #3cf;
+}
+.button a.btn{
+    background-color: transparent;
+    color: #fff;
+}
